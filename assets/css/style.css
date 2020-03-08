@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+ background: linear-gradient(45deg, #595757c9, #595757cc),url(leftimage-bg.jpg) !important;
+
+}
+
+.grid-container{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+/*	max-width: 1280px;
+	margin: 0 auto;
+	width: 100%;
+	grid-template-columns: 1fr;*/
+
+}
+.namebar{
+	align-self: baseline;
+	text-align: center;
+}
+.grid-item{
+row
+}
+.infobar h5{
+    font-weight: bold;
+    font-size: 30px;
+	color: #fff;
+}
+.namebar img{
+	float: left;
+	border-radius: 50%;
+	border: 8px solid #bcaeae38;
+    width: 20vw;
+    height: 40vh;
+}
+.infobar{
+	float: right;
+	width: 50vw;
+}
+.infobar b{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 200;
+}
+
+.twobuttons{
+	justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.twobuttons .green{
+	width: 190px;
+    height: 58px;
+	border-radius: 15px;
+	border-color: #24c245;
+	background-color: #24c245;
+	color: #fff;
+	font-size: 20px;
+	border-style: double;
+}
+.twobuttons .grey{
+	width: 190px;
+    height: 58px;
+	border-radius: 15px;
+	border-color: #24c245;
+	background-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	border-style: double;
+}
+
+.twobuttons .green a{
+	text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.twobuttons .green:hover{
+	background-color: #848080;
+	border-color: #848080;
+}
+
+.twobuttons .grey a{
+	text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.twobuttons .grey:hover{
+	background-color: #20B111;
+	border-color: #20B111;	
+}

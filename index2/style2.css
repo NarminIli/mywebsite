@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #fff;
+	background-size: cover;
+}
+
+.headside h2{
+	color:  #6B6969;
+	font-size: 80px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.headside b{
+	color: #03C02B;
+}
+
+.headside p{
+	text-align: center;
+    align-items: center;
+}
+
+.infoside button{
+	background-color: #03C02B;
+	width: 15vw;
+	height: 8vh;
+	border-radius: 15px; 
+	border-style: double;
+	border:none;
+	margin-left: -100px;
+}
+.infoside button:hover{
+	color: #656464;
+}
+.infoside button a{
+	text-decoration: none;
+	list-style-type: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+}
+.imgside{
+	float: left;
+	padding: 50px;
+	margin-left: 75px;
+}
+.infoside{
+	float: right;
+	margin-right: 130px;
+    margin-top: 80px;
+}
+li{
+    list-style-type: none;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+li h6{
+	font-size: 20px;
+	font-weight: 600;
+	color: #6D6D6D;
+	margin: 30px;
+}
+li h6 span{
+	color: #B6B6B6;
+	font-weight: 200;
+	font-size: smaller;
+}
+
+.experience{
+	float: left;
+	margin: 50px 130px;
+}
+.education{
+	float: right;
+    margin: 50px 370px;
+}
